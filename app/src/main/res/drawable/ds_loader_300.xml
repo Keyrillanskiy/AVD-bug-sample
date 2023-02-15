@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group
+        android:name="progressBarContainer"
+        android:translateX="12"
+        android:translateY="12">
+        <path
+            android:name="progressBar"
+            android:fillColor="@android:color/transparent"
+            android:pathData="M0,0 m 0,-10 a 10,10 0 1,1 0,20 a 10,10 0 1,1 0,-20"
+            android:strokeWidth="2"
+            android:strokeColor="@color/bg_action_primary"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="miter"
+            android:trimPathStart="0"
+            android:trimPathEnd="0.01"
+            android:trimPathOffset="0" />
+    </group>
+
+</vector>
